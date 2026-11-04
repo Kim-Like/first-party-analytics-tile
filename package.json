@@ -1,0 +1,21 @@
+{
+  "name": "first-party-analytics-tile",
+  "version": "1.0.0",
+  "description": "A tiny self-hosted pageview counter: a beacon script, a minimal Node collector that appends to a local file, and a static HTML tile with views, top pages and change versus the previous period.",
+  "type": "module",
+  "main": "src/index.js",
+  "bin": {
+    "first-party-analytics-tile": "src/cli.js"
+  },
+  "scripts": {
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "files": ["src", "docs"],
+  "keywords": ["analytics", "pageviews", "privacy", "self-hosted", "no-cookies"],
+  "author": "Kim Like",
+  "homepage": "https://aienterprise.dk",
+  "license": "MIT"
+}
